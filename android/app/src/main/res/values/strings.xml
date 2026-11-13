@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">ChefSkill</string>
+    <string name="title_activity_main">ChefSkill</string>
+    <string name="package_name">com.chefskill.app</string>
+    <string name="custom_url_scheme">com.chefskill.app</string>
+</resources>
