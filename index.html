@@ -3,14 +3,55 @@
 <html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
-    <meta name="theme-color" content="#183b32" />
-    <meta name="description" content="ChefSkill - Receitas passo a passo e lista de mercado." />
-    <link rel="manifest" href="/manifest.json">
-    <title>ChefSkill</title>
+
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+    />
+
+    <!-- Identidade do aplicativo -->
+    <title>ChefSkill | Receitas e Lista de Mercado</title>
+
+    <meta
+      name="description"
+      content="Descubra receitas, acompanhe preparos passo a passo e organize sua lista de mercado com o ChefSkill."
+    />
+
+    <meta name="theme-color" content="#183B32" />
+    <meta name="color-scheme" content="light" />
+
+    <!-- PWA -->
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta
+      name="apple-mobile-web-app-status-bar-style"
+      content="default"
+    />
+    <meta name="apple-mobile-web-app-title" content="ChefSkill" />
+
+    <!-- Ícone -->
+    <link rel="icon" type="image/png" href="/assets/icon.png" />
+    <link rel="apple-touch-icon" href="/assets/icon.png" />
+
+    <!-- Performance -->
+    <meta name="format-detection" content="telephone=no" />
+
+    <!-- Fonte -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
   </head>
+
   <body>
+    <noscript>
+      <p>
+        Para utilizar o ChefSkill, habilite o JavaScript no seu dispositivo.
+      </p>
+    </noscript>
+
     <div id="root"></div>
+
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
