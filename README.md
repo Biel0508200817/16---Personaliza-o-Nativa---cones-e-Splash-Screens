@@ -64,7 +64,7 @@ O workflow `.github/workflows/android-build.yml` compila o APK em cada push para
 ## Imagens do aplicativo
 Adicione capturas de tela em `docs/screenshots/` e insira-as aqui:
 ```md
-![Tela inicial 1](/img/tela%20inicial1.png)
+![Tela inicial 1](img/tela%20inicial1.png)
 ![Tela inicial 2](/img/telainicial%202.png)
 ![Receitas 1](/img/receitas1.png)
 ![Receitas 2](/img/recitas2.png)
