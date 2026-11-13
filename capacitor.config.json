@@ -1,4 +1,3 @@
-
 {
   "appId": "com.chefskill.app",
   "appName": "ChefSkill",
@@ -6,9 +5,10 @@
   "bundledWebRuntime": false,
   "plugins": {
     "SplashScreen": {
-      "launchShowDuration": 2000,
+      "launchShowDuration": 2500,
       "launchAutoHide": true,
       "backgroundColor": "#183B32",
+      "androidScaleType": "CENTER_CROP",
       "showSpinner": false
     }
   }

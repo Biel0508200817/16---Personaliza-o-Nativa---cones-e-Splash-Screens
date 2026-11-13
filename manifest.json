@@ -1,0 +1,16 @@
+{
+  "name": "ChefSkill",
+  "short_name": "ChefSkill",
+  "description": "Receitas culinárias passo a passo e lista de mercado",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#183B32",
+  "theme_color": "#183B32",
+  "icons": [
+    {
+      "src": "./assets/icon.png",
+      "sizes": "1024x1024",
+      "type": "image/png"
+    }
+  ]
+}
